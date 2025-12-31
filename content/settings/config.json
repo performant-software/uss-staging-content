@@ -1,0 +1,44 @@
+{
+  "content": {
+    "collections": [
+      "posts"
+    ]
+  },
+  "core_data": {
+    "url": "https://staging.coredata.cloud",
+    "project_ids": [
+      "231"
+    ]
+  },
+  "detail_pages": [
+    "items"
+  ],
+  "i18n": {
+    "default_locale": "en",
+    "locales": [
+      "en"
+    ]
+  },
+  "layers": [{
+      "name": "Maptiler DataViz Style",
+      "layer_type": "vector",
+      "url": "https://api.maptiler.com/maps/dataviz/style.json?key=DICl11L0kocVzMWdoynh"
+  }],
+  "search": [{
+    "name": "documents",
+    "route": "/items",
+    "type": "list",
+    "result_card": {
+      "title": "name"
+    },
+    "timeline": false,
+    "typesense": {
+      "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
+      "port": 443,
+      "protocol": "https",
+      "api_key": "JMyL5GHAuGHxN60Q1E9XeoPmFwM40AtA",
+      "index_name": "uss_documents",
+      "query_by": "name"
+    }
+  }]
+}
