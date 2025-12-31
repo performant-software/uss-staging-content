@@ -10,9 +10,11 @@
       "231"
     ]
   },
-  "detail_pages": [
-    "items"
-  ],
+  "detail_pages": {
+    "models": [
+      "items"
+    ]
+  },
   "i18n": {
     "default_locale": "en",
     "locales": [
