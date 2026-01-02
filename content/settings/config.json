@@ -34,7 +34,8 @@
       "title": "name"
     },
     "facets": [{
-      "name": "8cbf6ce2-1704-4968-9379-b800891aefbd_facet"
+      "name": "8cbf6ce2-1704-4968-9379-b800891aefbd_facet",
+      "type": "list"
     }, {
       "name": "c2a3f15c-581d-419d-b938-4681ad5b2a05_facet",
       "type": "select"
