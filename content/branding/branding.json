@@ -2,6 +2,9 @@
   "title": "Universities Studying Slavery",
   "font_header": "Open Sans",
   "font_body": "Open Sans",
+  "primary_color": "#303030",
+  "secondary_color": "#303030",
+  "background_color": "#F5F3EF",
   "footer": {
     "allow_login": true
   }
