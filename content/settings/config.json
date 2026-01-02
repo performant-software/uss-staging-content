@@ -41,9 +41,6 @@
     }, {
       "name": "f7bbd5a9-a45c-4b59-9187-63a269043138_facet",
       "type": "select"
-    }, {
-      "name": "65b8e1b2-bfeb-42ee-82f1-803d1b9ddef9",
-      "type": "range"
     }],
     "timeline": false,
     "typesense": {
