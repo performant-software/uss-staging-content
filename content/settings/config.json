@@ -44,7 +44,7 @@
     }, {
       "name": "65b8e1b2-bfeb-42ee-82f1-803d1b9ddef9",
       "type": "range"
-    }]
+    }],
     "timeline": false,
     "typesense": {
       "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
