@@ -40,6 +40,21 @@ sections:
             _template: free_text
           - size: large
             _template: spacer
+          - columns:
+              - width: col-span-9
+                justify: justify-center
+                background: layout_alternate
+                content:
+                    - title: Interested in joining the conversation?
+                      _template: basic
+              - width: col-span-3
+                justify: justify-center
+                background: layout_alternate
+                content:
+                    - text: |
+                        <button content="Contact Us" href="#" color="secondary" />
+                      _template: richtext
+          _template: multi_column
       - label: The Committee
         content:
           - title: Directors
