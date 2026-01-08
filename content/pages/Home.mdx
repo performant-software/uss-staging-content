@@ -4,11 +4,12 @@ home_page: true
 sections:
   - title: Universities Studying Slavery
     content: ''
-    height: medium
+    height: small
     color: white
     background_image: >-
       https://core-data-tina-cms.s3.us-east-1.amazonaws.com/uss-staging-content/hero_image.png
     background_image_alt: Hero Image
+    clip: false
     _template: banner
   - size: large
     _template: spacer
@@ -28,6 +29,7 @@ sections:
       dispossession, and more broadly, racism in their histories.
     image: >-
       https://core-data-tina-cms.s3.us-east-1.amazonaws.com/uss-staging-content/e53a47a967b9deb03fe7d6a893ccfaabb11cbd73.jpg
+    url: /en/pages/Institutions
     text_position: right
     button_text: View Institutions
     _template: text_image
@@ -52,13 +54,16 @@ sections:
       schools across the globe.
     image: >-
       https://core-data-tina-cms.s3.us-east-1.amazonaws.com/uss-staging-content/4e641e8a930e84d3298fe47cc14f50b143a2c03b.jpg
+    url: /en/pages/About
     button_text: Read More
     _template: text_image
   - size: large
     _template: spacer
   - title: The USS Field of Scholarship
+    url: ''
     button_text: ''
-    gap: ''
+    text_alignment: center
+    gap: small
     columns:
       - width: col-span-4
         content:
@@ -76,15 +81,23 @@ sections:
               https://core-data-tina-cms.s3.us-east-1.amazonaws.com/uss-staging-content/c344bad30bdc6cf813a6188d16c99dc644524f4a.jpg
             _template: image
     _template: multi_column
-  - body: >
-      Since Brown University’s 2006 Slavery and Justice Report, an entire field
-      of study has developed. Here, we provide links to scholarly monographs and
-      edited volumes, as well as a host of downloadable institutional research
-      reports, brochures, walking tours, sample class projects, and syllabi.
+  - size: small
+    _template: spacer
+  - columns:
+      - width: col-span-12
+        align: items-center text-center
+        content:
+          - text: >
+              Since Brown University’s 2006 Slavery and Justice Report, an
+              entire field of study has developed. Here, we provide links to
+              scholarly monographs and edited volumes, as well as a host of
+              downloadable institutional research reports, brochures, walking
+              tours, sample class projects, and syllabi.
 
 
-      <button content="View Library" href="#" color="secondary"
-      text="content_light" />
-    _template: free_text
+              <button content="View Library" href="/en/pages/The-Library"
+              color="secondary" />
+            _template: richtext
+    _template: multi_column
 ---
 
