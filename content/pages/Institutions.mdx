@@ -7,7 +7,6 @@ sections:
     height: small
     background_image: >-
       https://core-data-tina-cms.s3.us-east-1.amazonaws.com/uss-staging-content/header_image.png
-    clip: true
     _template: banner
   - size: small
     _template: spacer
@@ -199,16 +198,17 @@ sections:
               Yale University
             _template: free_text
     _template: tabs
-  - columns:
+  - background: layout_alternate
+    columns:
       - width: col-span-9
         justify: justify-center
-        background: layout_alternate
+        background: ''
         content:
           - title: Interested in joining the conversation?
             _template: basic
       - width: col-span-3
         justify: justify-center
-        background: layout_alternate
+        background: ''
         content:
           - text: |
               <button content="Contact Us" href="#" color="secondary" />
