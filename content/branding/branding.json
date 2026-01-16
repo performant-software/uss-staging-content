@@ -8,6 +8,6 @@
   "background_color": "#F5F3EF",
   "background_alternate": "#EBE7E0",
   "footer": {
-    "allow_login": true
+    "allow_login": false
   }
 }
