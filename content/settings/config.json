@@ -11,9 +11,9 @@
     ]
   },
   "detail_pages": {
-    "models": [
-      "items"
-    ]
+    "models": {
+      "items": {}
+    }
   },
   "i18n": {
     "default_locale": "en",
